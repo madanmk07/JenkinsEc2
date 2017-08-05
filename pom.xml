@@ -17,5 +17,22 @@
       <version>4.11</version>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+
+     <repository>
+         <id>Test</id>
+         <name>Rep1</name>
+         <url>http://localhost:8081/nexus/content/repositories/Test/</url>
+     </repository>
+
+     <snapshotRepository>
+         <id>snapshots</id>
+         <name>Snapshots</name>
+         <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+     </snapshotRepository>
+
+</distributionManagement>
+    
 
 </project>
