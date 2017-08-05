@@ -21,9 +21,9 @@
   <distributionManagement>
 
      <repository>
-         <id>Test</id>
-         <name>Rep1</name>
-         <url>http://localhost:8081/nexus/content/repositories/Test/</url>
+         <id>releases</id>
+         <name>Releases</name>
+         <url>http://localhost:8081/nexus/content/repositories/releases/</url>
      </repository>
 
      <snapshotRepository>
